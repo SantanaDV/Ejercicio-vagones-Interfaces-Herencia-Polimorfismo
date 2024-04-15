@@ -13,7 +13,7 @@ package trenes.controladores;
 public abstract class ControlServicio {
     protected int idControlServicio;
     protected String nombreControlServicio;
-    protected  int idControlServicio;
+    protected  static int id;
     protected enum tipoControlServicio {
 Puerta,Ventanilla, TiraLuz, Altavoz
     };
@@ -108,6 +108,9 @@ Puerta,Ventanilla, TiraLuz, Altavoz
 	/*
 	 * Método toString 
 	 */
+
+    public ControlServicio() {
+    }
 
 
 }
