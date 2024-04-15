@@ -10,8 +10,15 @@ package trenes.controladores;
  * @version 1.0
  */
 
-public class ControlServicio {
-
+public abstract class ControlServicio {
+    protected int idControlServicio;
+    protected String nombreControlServicio;
+    protected  int idControlServicio;
+    protected enum tipoControlServicio {
+Puerta,Ventanilla, TiraLuz, Altavoz
+    };
+    
+    
 
 	/*
 	 * Atributo de clase numControlesConfigurados. 
